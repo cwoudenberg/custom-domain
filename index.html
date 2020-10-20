@@ -12,20 +12,21 @@
 
     <h2>Contact</h2>
 
-    <form 
-    name="Contact Me"
-    method="POST"
-    data-netlify="true">
-
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name"></input>
-
-    <label for="email">Email</label>
-    <input type="text" name="email" id="email"></input>
-
-    <!-- Using this older form allows it to work on older browsers -->
-    <!-- <input type="submit" value="Send It"> -->
-    <button type="Submit">Send</button>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      
 
     </form>
 
